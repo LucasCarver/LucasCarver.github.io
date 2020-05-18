@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    background-color: gray;
+}
+
+nav {
+    width:1200px;
+    display: flex;
+    border-bottom: solid 8px black;
+}
+
+nav div {
+    flex-grow: 1;
+}
+
+nav div a {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+}
+
+.content div {
+    flex:1 1 0;
+    background-color: gray;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    border:solid 4px black
+}
+
+.content h1 {    
+    text-align: left;    
+    font-size: 36px;
+    line-height: 1em;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
